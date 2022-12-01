@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row2">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="44890.2069669213"/>
+				<Prp name="name" type="S" value="Charge_Log_Summary [KeywordTests - Charge_Log_Summary]"/>
+				<Prp name="details" type="S" value="{A499BFE7-9C21-4411-BCFF-924665DCF2BB}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="end time" type="D" value="44890.2070424653"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="extended message" type="S" value=""/>
+			</Node>
+			<Node name="row3">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="44890.2070425926"/>
+				<Prp name="name" type="S" value="Daily_CPA [KeywordTests - Daily_CPA]"/>
+				<Prp name="details" type="S" value="{137CE73B-6CC1-4041-B8DB-65ED929AAA6E}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="end time" type="D" value="44890.2070727546"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="extended message" type="S" value=""/>
+			</Node>
+			<Node name="row0">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="44890.2066648958"/>
+				<Prp name="name" type="S" value="StartEdge [KeywordTests - StartEdge]"/>
+				<Prp name="details" type="S" value="{E5BB78CE-DFAC-44D6-B389-509020087199}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44890.206922419"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="extended message" type="S" value=""/>
+			</Node>
+			<Node name="row4">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="44890.2070728935"/>
+				<Prp name="name" type="S" value="StopEdge [KeywordTests - StopEdge]"/>
+				<Prp name="details" type="S" value="{CF36ACD6-0109-4CFE-87EE-EA15DB84E88F}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="end time" type="D" value="44890.207083206"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="extended message" type="S" value=""/>
+			</Node>
+			<Node name="row1">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="44890.2069225579"/>
+				<Prp name="name" type="S" value="PageLoginLogin [KeywordTests - PageLoginLogin]"/>
+				<Prp name="details" type="S" value="{DCFC973E-52A6-4DEE-A510-BCF8C6148D53}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="end time" type="D" value="44890.206966794"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="extended message" type="S" value=""/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{C42AF8BF-ABDF-47A5-9604-523C7659E0F2}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{13FD52CC-F482-47B9-9828-15B94753E2FB}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageLogin" Key="{052D5D42-426C-459E-8FD2-96C0D48CDB3D}">
+								<Image FileName="1146958341" Left="0" Top="71" Right="1232" Bottom="679" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://analyticsdev.guidehouse.com/spotfire/resources/custom-login/guidehouselogin.html*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{18467A35-1343-44A1-AEBF-786C8C5D936B}">
+										<Image FileName="1146958341" Left="233" Top="171" Right="700" Bottom="299" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@name=&apos;form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Keep me logged in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-pristine&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tssCustomLoginAppController&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogIn" Key="{16894838-CB27-45EE-B160-819B4B134ECD}">
+										<Image FileName="1146958341" Left="417" Top="252" Right="517" Bottom="275" />
+										<TypeInfo Item0="{FF123D3D-D6AD-4ACC-B6B3-C8224D0F3A24}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Log in&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInputemail3" Key="{56DCE998-BE16-49E1-B920-1B6697954350}">
+										<Image FileName="1146958341" Left="397" Top="181" Right="537" Bottom="201" />
+										<TypeInfo Item0="{B98D1463-46E7-4C35-BEF2-B9C1A392E6EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#inputEmail3" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxInputpassword3" Key="{243F9B44-4808-41EF-931C-CE96EA95BB78}">
+										<Image FileName="136540865" Left="397" Top="204" Right="537" Bottom="224" />
+										<TypeInfo Item0="{B98D1463-46E7-4C35-BEF2-B9C1A392E6EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#inputPassword3" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[contains(@class, &apos;ng-pristine&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{108FEB08-CC8A-43ED-A447-D328C76358DD}">
+								<Image FileName="1146958341" Left="-8" Top="-8" Right="1288" Bottom="688" />
+								<TypeInfo Item0="{0D663CD5-3C82-46C4-96D2-DA6613E8EE30}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="Components" Key="{59B7DEBB-80B2-4F93-8804-B0460B03489A}">
+								<Image FileName="-270014526" Left="0" Top="71" Right="1232" Bottom="679" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://analyticsdev.guidehouse.com/spotfire/wp/analysis*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkExecutiveSummary" Key="{49D4430D-912E-457A-90C6-3E8F3EF90F5B}">
+										<Image FileName="-270014526" Left="355" Top="428" Right="621" Bottom="458" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Executive Summary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Dashboard&apos;]//div[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Dashboard&apos;]//tr/td/center/div[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDefaultopen1" Key="{15901586-AC3C-48F9-A900-4BEF8BB23BC8}">
+										<Image FileName="972414648" Left="352" Top="177" Right="621" Bottom="200" />
+										<TypeInfo Item0="{FF123D3D-D6AD-4ACC-B6B3-C8224D0F3A24}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#defaultOpen1" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Dashboard&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSelectedFilters" Key="{A83A81DE-8FEA-4E93-88C4-5253CDA5B1A1}">
+										<Image FileName="105043864" Left="-12" Top="97" Right="164" Bottom="657" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;table-container&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{5AB0254E-BA54-4B98-9565-73586BBFE073}">
+										<Image FileName="-1314921872" Left="0" Top="71" Right="1233" Bottom="680" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;sfx_centralizer_1131&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSelectedFilters" Key="{CA96FB49-F55A-448E-937B-60B0614DD4FC}">
+										<Image FileName="1151262261" Left="29" Top="155" Right="88" Bottom="164" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//strong[.=&apos;Selected Filters&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[@id=&apos;ui-accordion-acc-header-0&apos;]/strong" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[@role=&apos;tab&apos;]/strong" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonRevenue" Key="{1003260C-BDBD-4312-99C0-1FB0DA8F1CFB}">
+										<Image FileName="-690344723" Left="628" Top="133" Right="897" Bottom="156" />
+										<TypeInfo Item0="{FF123D3D-D6AD-4ACC-B6B3-C8224D0F3A24}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Revenue&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkChargeLagSummary" Key="{421C7092-074A-477B-9EE9-74FBD4C60530}">
+										<Image FileName="-68660304" Left="355" Top="450" Right="621" Bottom="480" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[.=&apos;%SelectLink%&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFilters" Key="{EECF4A83-DD78-4E8D-9C7F-D411E7434D4B}">
+										<Image FileName="1778379568" Left="193" Top="116" Right="208" Bottom="147" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Filters&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;subscribe_tab&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUiAccordionAccHeader0" Key="{C58B87E0-13CA-4A21-8C2B-EFFA325EC343}">
+										<Image FileName="-303023386" Left="17" Top="259" Right="155" Bottom="279" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ui-accordion-acc-header-0" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[.=&apos;Selected Filters&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[@role=&apos;tab&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[contains(@class, &apos;ui-accordion-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;acc&apos;]/h5" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageHome" Key="{077882CE-9958-43EE-9BAB-0A10641F2EAA}">
+										<Image FileName="-2032051924" Left="28" Top="124" Right="61" Bottom="152" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@title=&apos;Home&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table//tr/td/img[contains(@class, &apos;sf-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg" Key="{ED54EA51-928B-4366-ADB5-417D760E4177}">
+										<Image FileName="1564757444" Left="1168" Top="202" Right="1181" Bottom="214" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//center//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAll" Key="{EBFF86E4-B9A3-4461-BBDB-084A75C4DAF1}">
+										<Image FileName="-1277655676" Left="1089" Top="202" Right="1173" Bottom="214" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;ALL&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//center//div[@title=&apos;ALL&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//center//div[contains(@class, &apos;sf-element-text-box&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkDailyCPA" Key="{0E0F5A7F-D20D-406B-8E0A-72FC93D8A077}">
+										<Image FileName="-684817715" Left="355" Top="378" Right="621" Bottom="408" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[.=&apos;%SelectLink%&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelJun" Key="{7DC9286D-44D8-463B-885E-FB1CB9B68E86}">
+										<Image FileName="-2060678295" Left="70" Top="283" Right="90" Bottom="294" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Jun&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//div[8]/div[contains(@class, &apos;cell-text&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelFrozencolumnscontainer" Key="{C69DE389-CFAA-4A16-94A9-EB4030631302}">
+										<Image FileName="1164666467" Left="16" Top="223" Right="100" Bottom="495" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//div[@name=&apos;frozenColumnsContainer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//div[contains(@class, &apos;frozenColumnsContainer&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDailyCpa" Key="{D34D6CB5-B019-422A-AE27-34C21E6130DD}">
+										<Image FileName="-96997065" Left="341" Top="660" Right="382" Bottom="669" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Daily CPA&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]/span[contains(@class, &apos;sfx_text-box_218&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNofillFillNone" Key="{DCE8F62C-513A-43D2-9A54-2FFC608CF57F}">
+										<Image FileName="-1901385854" Left="754" Top="660" Right="775" Bottom="668" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@title=&apos;Select page&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelExecutiveSummary" Key="{96BCA0F0-84F5-4325-8EA2-28AC087F573A}">
+										<Image FileName="1596192823" Left="754" Top="153" Right="943" Bottom="174" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//div)[1284]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vgNofillFillNone" Key="{FED425E9-E72E-48CF-B149-A90D3E664D1B}">
+										<Image FileName="-329242454" Left="1052" Top="659" Right="1063" Bottom="670" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//div[2]//div[3]/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDailyCpa" Key="{26956AC5-84CC-4EB8-867E-D6885FEBAE8F}">
+										<Image FileName="-1131762017" Left="1069" Top="201" Right="1205" Bottom="211" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Daily CPA&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelExecutiveSummary2" Key="{4BF3F12C-3E18-42E7-B5C9-B37C748F5564}">
+										<Image FileName="-975027831" Left="781" Top="159" Right="917" Bottom="169" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Executive Summary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div[contains(@class, &apos;contextMenuItemLabel&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelFeedback" Key="{E0ACF21A-0C34-4666-A868-8B5571B60FF7}">
+										<Image FileName="-139082910" Left="754" Top="649" Right="943" Bottom="670" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//div)[1333]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelMonthlyCpa" Key="{758437E2-B325-4FA6-B4CA-BE15839C3B46}">
+										<Image FileName="1385199631" Left="781" Top="180" Right="917" Bottom="190" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Monthly CPA&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div[contains(@class, &apos;contextMenuItemLabel&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDistributionDrillDownReport" Key="{28FD523F-7836-480C-BD76-34DC9EC61F09}">
+										<Image FileName="1340423188" Left="611" Top="178" Right="1217" Bottom="188" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[4]//div[contains(@class, &apos;flex-container-horizontal&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{F64A434C-6F31-453D-AEFA-80EED45C1A02}">
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//div)[379]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelChargeLagSummary" Key="{65C14FA1-CB95-4835-A089-7CBC430D628D}">
+										<Image FileName="1794475117" Left="1069" Top="304" Right="1205" Bottom="314" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Charge Lag Summary&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelMonthlyCpa2" Key="{32F657AB-5171-48E3-9763-CED368C1FCB0}">
+										<Image FileName="964698306" Left="1089" Top="174" Right="1278" Bottom="195" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//div)[377]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMonthlyCpa" Key="{AFCAE8D0-3042-44B4-BAC8-3A2973EC0BC1}">
+										<Image FileName="-1179603619" Left="273" Top="660" Right="324" Bottom="669" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Monthly CPA&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[8]/span[contains(@class, &apos;sfx_text-box_218&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[8]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelBrookridgeHospital" Key="{11CECB02-048C-4E1C-A575-EDD122B109D7}">
+										<Image FileName="-1542420785" Left="11" Top="440" Right="129" Bottom="450" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;BROOKRIDGE HOSPITAL&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;BROOKRIDGE HOSPITAL&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAll21Values" Key="{9693A75F-6CA0-4168-B4ED-0BFF23661104}">
+										<Image FileName="1635937958" Left="11" Top="420" Right="129" Bottom="430" />
+										<TypeInfo Item0="{F3E1D589-278E-4CB7-A727-3029E61B7015}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;(All) 21 values&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;(All) 21 values&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[29]//div[contains(@class, &apos;sf-element-list-box-item&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{13FD52CC-F482-47B9-9828-15B94753E2FB}">
+			<Child Name="pageLogin" Owner="{052D5D42-426C-459E-8FD2-96C0D48CDB3D}">
+				<Child Name="form" Owner="{18467A35-1343-44A1-AEBF-786C8C5D936B}">
+					<Child Name="buttonLogIn" Owner="{16894838-CB27-45EE-B160-819B4B134ECD}" />
+					<Child Name="textboxInputemail3" Owner="{56DCE998-BE16-49E1-B920-1B6697954350}" />
+					<Child Name="passwordboxInputpassword3" Owner="{243F9B44-4808-41EF-931C-CE96EA95BB78}" />
+				</Child>
+			</Child>
+			<Child Name="BrowserWindow" Owner="{108FEB08-CC8A-43ED-A447-D328C76358DD}" />
+			<Child Name="Components" Owner="{59B7DEBB-80B2-4F93-8804-B0460B03489A}">
+				<Child Name="linkExecutiveSummary" Owner="{49D4430D-912E-457A-90C6-3E8F3EF90F5B}" />
+				<Child Name="buttonDefaultopen1" Owner="{15901586-AC3C-48F9-A900-4BEF8BB23BC8}" />
+				<Child Name="panelSelectedFilters" Owner="{A83A81DE-8FEA-4E93-88C4-5253CDA5B1A1}" />
+				<Child Name="panel" Owner="{5AB0254E-BA54-4B98-9565-73586BBFE073}" />
+				<Child Name="textnodeSelectedFilters" Owner="{CA96FB49-F55A-448E-937B-60B0614DD4FC}" />
+				<Child Name="buttonRevenue" Owner="{1003260C-BDBD-4312-99C0-1FB0DA8F1CFB}" />
+				<Child Name="linkChargeLagSummary" Owner="{421C7092-074A-477B-9EE9-74FBD4C60530}" />
+				<Child Name="textnodeFilters" Owner="{EECF4A83-DD78-4E8D-9C7F-D411E7434D4B}" />
+				<Child Name="textnodeUiAccordionAccHeader0" Owner="{C58B87E0-13CA-4A21-8C2B-EFFA325EC343}" />
+				<Child Name="imageHome" Owner="{077882CE-9958-43EE-9BAB-0A10641F2EAA}" />
+				<Child Name="vg" Owner="{ED54EA51-928B-4366-ADB5-417D760E4177}" />
+				<Child Name="panelAll" Owner="{EBFF86E4-B9A3-4461-BBDB-084A75C4DAF1}" />
+				<Child Name="linkDailyCPA" Owner="{0E0F5A7F-D20D-406B-8E0A-72FC93D8A077}" />
+				<Child Name="panelJun" Owner="{7DC9286D-44D8-463B-885E-FB1CB9B68E86}" />
+				<Child Name="panelFrozencolumnscontainer" Owner="{C69DE389-CFAA-4A16-94A9-EB4030631302}" />
+				<Child Name="textnodeDailyCpa" Owner="{D34D6CB5-B019-422A-AE27-34C21E6130DD}" />
+				<Child Name="panelNofillFillNone" Owner="{DCE8F62C-513A-43D2-9A54-2FFC608CF57F}" />
+				<Child Name="panelExecutiveSummary" Owner="{96BCA0F0-84F5-4325-8EA2-28AC087F573A}" />
+				<Child Name="vgNofillFillNone" Owner="{FED425E9-E72E-48CF-B149-A90D3E664D1B}" />
+				<Child Name="panelDailyCpa" Owner="{26956AC5-84CC-4EB8-867E-D6885FEBAE8F}" />
+				<Child Name="panelExecutiveSummary2" Owner="{4BF3F12C-3E18-42E7-B5C9-B37C748F5564}" />
+				<Child Name="panelFeedback" Owner="{E0ACF21A-0C34-4666-A868-8B5571B60FF7}" />
+				<Child Name="panelMonthlyCpa" Owner="{758437E2-B325-4FA6-B4CA-BE15839C3B46}" />
+				<Child Name="panelDistributionDrillDownReport" Owner="{28FD523F-7836-480C-BD76-34DC9EC61F09}" />
+				<Child Name="panel2" Owner="{F64A434C-6F31-453D-AEFA-80EED45C1A02}" />
+				<Child Name="panelChargeLagSummary" Owner="{65C14FA1-CB95-4835-A089-7CBC430D628D}" />
+				<Child Name="panelMonthlyCpa2" Owner="{32F657AB-5171-48E3-9763-CED368C1FCB0}" />
+				<Child Name="textnodeMonthlyCpa" Owner="{AFCAE8D0-3042-44B4-BAC8-3A2973EC0BC1}" />
+				<Child Name="panelBrookridgeHospital" Owner="{11CECB02-048C-4E1C-A575-EDD122B109D7}" />
+				<Child Name="panelAll21Values" Owner="{9693A75F-6CA0-4168-B4ED-0BFF23661104}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

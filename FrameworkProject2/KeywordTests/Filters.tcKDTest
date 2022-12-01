@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{AAF748B6-6AC1-475D-BDEA-D83551DE2E9B}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.Components.textnodeMonthlyCpa" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.Components.panelSelectedFilters" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks the &apos;%n&apos; object." Action="DblClick" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="252" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="820" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.Components.panelSelectedFilters" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks the &apos;%n&apos; object." Action="DblClick" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="252" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="820" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.Components.panelSelectedFilters" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks the &apos;%n&apos; object." Action="DblClick" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="252" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="820" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.Components.panelSelectedFilters" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks the &apos;%n&apos; object." Action="DblClick" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="252" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="820" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.Components.panelSelectedFilters" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks the &apos;%n&apos; object." Action="DblClick" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="252" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="820" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.Components.panelSelectedFilters" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks the &apos;%n&apos; object." Action="DblClick" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="252" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="820" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.Components.panelSelectedFilters" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks the &apos;%n&apos; object." Action="DblClick" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="252" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="820" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.Components.panelSelectedFilters" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.Components.panelSelectedFilters" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.Components.panelBrookridgeHospital" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser.Components.panelAll21Values" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{23460564-C53B-4274-AA20-B150C6510285}" />
+</Root>

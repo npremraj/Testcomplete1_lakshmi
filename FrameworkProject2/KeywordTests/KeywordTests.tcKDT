@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="PageLogin">
+			<child name="PageLoginLogin" key="{15AC14CC-5FE2-458B-8A71-52C53FBF7958}" path="PageLoginLogin.tcKDTest" />
+		</folder>
+		<folder name="DashboardTab">
+			<child name="Key_Performance_Indicators" key="{7BB8BCDC-3C9E-4E09-B071-6F19E93BEDE7}" path="Key_Performance_Indicators.tcKDTest" />
+			<child name="Executive_Summary" key="{0D71A70E-6853-4C58-825F-3ACA5B0C6E65}" path="Executive_Summary.tcKDTest" />
+			<child name="Provider_Comparison" key="{13AD3B43-2A55-462F-9AD9-3848C39F4F55}" path="Provider_Comparison.tcKDTest" />
+		</folder>
+		<folder name="UltsBrowser">
+			<child name="StartEdge" key="{D26BF99E-8189-4BCF-9E57-540AAE631718}" path="StartEdge.tcKDTest" />
+			<child name="StopEdge" key="{025B0C4B-209D-4459-AD6A-E1409693390D}" path="StopEdge.tcKDTest" />
+			<child name="NavEdge" key="{8172AE57-674F-449B-8F92-996A9556C152}" path="NavEdge.tcKDTest" />
+		</folder>
+		<folder name="BasePageLogout">
+			<child name="PageLogout" key="{DED8F868-A708-4FD7-AC57-9F12964EA98B}" path="PageLogout.tcKDTest" />
+		</folder>
+		<folder name="Revenue">
+			<child name="Daily_CPA" key="{4317C288-C560-40F9-AF1D-A143ADF9E11C}" path="Daily_CPA.tcKDTest" />
+			<child name="Monthly_CPA" key="{55BA276E-37DC-4E64-9F08-10BADEB6C92F}" path="Monthly_CPA.tcKDTest" />
+			<child name="Charge_Log_Summary" key="{F5BECA2A-0797-4809-A902-26D68014010B}" path="Charge_Log_Summary.tcKDTest" />
+			<child name="Filters" key="{BA023A6E-C662-4D8A-995E-55013B8CDD1C}" path="Filters.tcKDTest" />
+		</folder>
+		<folder name="Components">
+			<folder name="MainMenu">
+				<child name="MainMenuComponents" key="{2F3E9BC5-3234-4FD7-9B5A-18CDD7F55C09}" path="MainMenuComponents.tcKDTest" />
+			</folder>
+		</folder>
+		<child name="Test1" key="{F73CCD6F-7FEF-4FB7-8C85-FD07A772C2A8}" path="Test1.tcKDTest" />
+	</children>
+</Root>
